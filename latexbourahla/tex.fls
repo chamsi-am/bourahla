@@ -1,6 +1,6 @@
-PWD e:\ch master2\cours\BOURAHLA
+PWD c:\Users\Omar\Documents\GitHub\bourahla\latexbourahla
 INPUT C:\Users\Omar\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT e:\ch master2\cours\BOURAHLA\tex.tex
+INPUT c:\Users\Omar\Documents\GitHub\bourahla\latexbourahla\tex.tex
 OUTPUT tex.log
 INPUT E:\Program Files (x86)\miktex\tex\latex\base\article.cls
 INPUT E:\Program Files (x86)\miktex\tex\latex\base\article.cls

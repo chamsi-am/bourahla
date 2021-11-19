@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.5)  17 NOV 2021 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.5)  19 NOV 2021 19:30
 entering extended mode
-**"e:/ch master2/cours/BOURAHLA/tex.tex"
-(e:/ch master2/cours/BOURAHLA/tex.tex
+**c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex
+(c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (E:\Program Files (x86)\miktex\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -391,7 +391,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-e:/ch master2/cours/BOURAHLA/tex.tex:9: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:9: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -404,7 +404,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:10: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:10: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -417,7 +417,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:11: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:11: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -430,7 +430,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:11: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:11: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -443,7 +443,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:16: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:16: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -456,7 +456,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:18: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:18: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -469,7 +469,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:19: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:19: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -482,7 +482,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:20: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:20: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -495,7 +495,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:27: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:27: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -513,7 +513,7 @@ Overfull \hbox (52.7292pt too wide) in paragraph at lines 27--27
  []
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:28: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:28: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -526,7 +526,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:29: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:29: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -539,7 +539,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:29: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:29: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -552,7 +552,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:29: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:29: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -566,7 +566,7 @@ You may provide a definition with
 
 Runaway argument?
 {,afterthought={ 
-e:/ch master2/cours/BOURAHLA/tex.tex:40: Paragraph ended before \forestOappto was complete.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:40: Paragraph ended before \forestOappto was complete.
 <to be read again> 
                    \par 
 l.40     \end{forest}
@@ -575,7 +575,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:40: Extra }, or forgotten \endgroup.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:40: Extra }, or forgotten \endgroup.
 <argument> ...iven options}{,afterthought={ \par }
                                                   }
 l.40     \end{forest}
@@ -586,7 +586,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:40: Extra }, or forgotten \endgroup.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:40: Extra }, or forgotten \endgroup.
 <argument> ...ven options}{,afterthought={ \par }}
                                                   
 l.40     \end{forest}
@@ -601,7 +601,7 @@ deleted material, e.g., by typing `I$}'.
 
 {C:/Users/Omar/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
-e:/ch master2/cours/BOURAHLA/tex.tex:43: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:43: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -614,7 +614,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:43: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:43: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -627,7 +627,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:45: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:45: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -640,7 +640,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:46: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:46: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -653,7 +653,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:47: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:47: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -666,7 +666,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:47: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:47: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -679,7 +679,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:48: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:48: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -692,7 +692,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:51: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:51: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -705,7 +705,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:56: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:56: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -718,7 +718,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:64: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:64: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -731,7 +731,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:66: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:66: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -744,7 +744,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:67: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:67: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -757,7 +757,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:67: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:67: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -770,7 +770,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:68: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:68: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -783,7 +783,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-e:/ch master2/cours/BOURAHLA/tex.tex:68: Package inputenc Error: Unicode character ́ (U+0301)
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:68: Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
@@ -803,7 +803,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Runaway argument?
 {,afterthought={\unexpanded { 
-e:/ch master2/cours/BOURAHLA/tex.tex:98: Paragraph ended before \forestOeappto was complete.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:98: Paragraph ended before \forestOeappto was complete.
 <to be read again> 
                    \par 
 l.98     \end{forest}
@@ -812,7 +812,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:98: Extra }, or forgotten \endgroup.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:98: Extra }, or forgotten \endgroup.
 <argument> ...{,afterthought={\unexpanded { \par }
                                                   }}
 l.98     \end{forest}
@@ -823,7 +823,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:98: Extra }, or forgotten \endgroup.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:98: Extra }, or forgotten \endgroup.
 <argument> ...,afterthought={\unexpanded { \par }}
                                                   }
 l.98     \end{forest}
@@ -834,7 +834,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:98: Extra }, or forgotten \endgroup.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:98: Extra }, or forgotten \endgroup.
 <argument> ...afterthought={\unexpanded { \par }}}
                                                   
 l.98     \end{forest}
@@ -846,7 +846,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [3]
-e:/ch master2/cours/BOURAHLA/tex.tex:118: Missing $ inserted.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:118: Missing $ inserted.
 <inserted text> 
                 $
 l.118         gate_
@@ -854,7 +854,7 @@ l.118         gate_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:125: Missing $ inserted.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:125: Missing $ inserted.
 <inserted text> 
                 $
 l.125     \subsection
@@ -867,7 +867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--125
 
  []
 
-e:/ch master2/cours/BOURAHLA/tex.tex:140: Missing $ inserted.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:140: Missing $ inserted.
 <inserted text> 
                 $
 l.140         gate_
@@ -875,7 +875,7 @@ l.140         gate_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:147: Missing $ inserted.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:147: Missing $ inserted.
 <inserted text> 
                 $
 l.147     \subsection
@@ -889,7 +889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--147
  []
 
 [4]
-e:/ch master2/cours/BOURAHLA/tex.tex:162: Missing $ inserted.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:162: Missing $ inserted.
 <inserted text> 
                 $
 l.162         gate_
@@ -897,7 +897,7 @@ l.162         gate_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-e:/ch master2/cours/BOURAHLA/tex.tex:168: Missing $ inserted.
+c:/Users/Omar/Documents/GitHub/bourahla/latexbourahla/tex.tex:168: Missing $ inserted.
 <inserted text> 
                 $
 l.168 
@@ -913,14 +913,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--168
 [5] [6] (tex.aux) ) 
 Here is how much of TeX's memory you used:
  24785 strings out of 478927
- 583007 string characters out of 2859569
- 871331 words of memory out of 3000000
+ 583176 string characters out of 2859569
+ 871348 words of memory out of 3000000
  42388 multiletter control sequences out of 15000+600000
  404640 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,8n,124p,1626b,2358s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 138i,8n,124p,1649b,2358s stack positions out of 5000i,500n,10000p,200000b,80000s
 <E:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Program Files (x86)/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on tex.pdf (6 pages, 84901 bytes).
+Output written on tex.pdf (6 pages, 85059 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
