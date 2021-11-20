@@ -1,0 +1,96 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[space]{}
+
+\title{Universite de M'sila \\ Département math et informatique 
+\\ Master 2 IA \\Modèle d'apprentissage automatique}
+\author{Gherabi Amira}
+\date{\today}
+\usepackage{forest}
+\begin{document}
+\maketitle
+
+\section*{exercice n01:}
+    \subsection*{a) Les sources du problème d’apprentissage}
+    \begin{enumerate}
+        \item nombre de cycles durant lesquels la performance 
+        de l’agent reste sous-optimale pour la tâche de décision donnée.
+        \item Les ressources de calcul nécessaires durant chaque 
+        cycle à l’agent pour réviser sa stratégie et choisir une action.
+
+
+
+    \end{enumerate}
+    \subsection*{b)   Le modèle d’apprentissage:}
+    modèle d’apprentissage est un cadre formel donnant une mesure des deux
+    sources de complexitè mentionné prècèdament .
+    \subsection*{c) L'influence des observations, les actions et le feedback sur la difficulté de l’apprentissage}
+    \begin{enumerate}
+    \item  L'observation:
+          \begin{itemize}
+    
+              \item[$\ast$] la dimension peut etre immense, voire infini
+              \item[$\ast$]  les valeurs de certains attributs peuvent être imprécises, erronées, ou encore absentes.
+              \item[$\ast$]  environnements partiellement observables alors ’une situation incertain
+            \end{itemize}
+     \item  L'action: les actions sont des decision soit simple ou complex, 
+    \begin{itemize}
+    
+        \item[$\ast$] l’espace des décisions possède une structure combinatoire; les décisions peuvent prendre la forme d’arbres, 
+        de graphes, ou encore d’hypergraphes
+         \item[$\ast$] Les actions simples peuvent avoir un impact sur la difficulté de 
+         l’apprentissage selon la manière dont elles influent l’environnement  (épisodique/séquentiel)
+      \end{itemize}
+      \item  Feedback:Le type de feedback définit le mode d’apprentissage
+
+     \end{enumerate}
+     
+
+\section*{exercice n02}
+
+    \subsection*{les composants du problème l’apprentissage de porte logique XOR}
+    la fonction Xor envoi une valeur vraie si les deux entrées ne sont
+    pas  ́egaux et  fausse si elles sont  ́egaux
+    \begin{itemize}
+        \item[$\ast$] l’espace des entrées est le couple (a,b)/ (a,b) $ \in $ X=\{(0, 0),(0, 1),(1,0),(1, 1)\} 
+\item[$\ast$] l’espace des sorties est Y = \{true,false\}.
+\item[$\ast$] programme Xor en python\\
+ def xor(x,y):\\
+return bool((x and not y) or (not x and y))\\
+
+print(xor(0,0))\\
+print(xor(0,1))\\
+print(xor(1,0))\\
+print(xor(1,1))\\
+\end{itemize}
+\section*{exercice n03:}
+    \subsection*{x_1 \lor x_2 \wedge x_3 \lor x_4}
+
+    \begin{forest}
+        [x1, for tree={draw,circle}
+           [0] [x2[x3[x4[0][1]][1]][1]]]
+
+        
+    \end{forest}
+    Liste de décision:
+
+\section*{exercice n04:}
+\begin{enumerate}
+   \item la différence entre une requète d’appartenance et une
+    requète d’equivalence est:
+    \begin{enumerate}
+        \item[$\ast$] Une requète d’appartenance (MQ) associe à une instance x posée par
+        l’apprenant la réponse oui si h(x) = 1, et non sinon.
+        \item[$\ast$] Une requète d’ ́equivalence (EQ) associe à une hypothèse h posée par
+        l’apprenant la  réponse oui si h = h*, et non sinon
+    \end{enumerate}
+    \item  Si on a  h1(x1,x2,x3)=x1 ,  h2(x1,x2,x3)=x1  x2 alors l'hypothèse la plus spécifique est h2 
+    \item pour toute instance (x1,x2,x3)
+    \begin{enumerate}
+        \item[$\ast$] Si h(x1,x2,x3) =0 le type de cette requète est requète d’appartenance (MQ) 
+        \item[$\ast$] si h*(x1,x2,x3) = 1 requète d’ ́equivalence (EQ)
+    \end{enumerate}   
+\end{enumerate}
+
+
+\end{document}
+
