@@ -1,0 +1,218 @@
+\documentclass[11pt, a4paper]{book}
+\usepackage[space]{}
+\usepackage{vaucanson-g}
+\usepackage{amsmath}
+\usepackage{graphicx} 
+\usepackage{mwe}
+
+\title{Universite de M'sila \\ Département math et informatique 
+\\ Master 2 IA \\logique et algebre de processus}
+\author{Gherabi Amira}
+\date{\today}
+\usepackage{forest}
+\begin{document}
+\maketitle
+\section*{exercice n01: la demonstration des trois lois pour l'operateur []}
+\begin{enumerate}
+\item  A[]B = B[]A $\to$ A \:\:\:Commutativité 
+\begin{enumerate}
+    \item[$\ast$]  on a A[]B \: \stackrel{a}{\rightarrow}\:  A \: \: et \: \:  B[]A \:  \stackrel{a}{\rightarrow}  \: A \:alors\: A[]B = B[]A
+\end{enumerate} 
+\item A[]stop = stop[]A = A $\to$\:\:\: A Zéro absorption
+\begin{enumerate}
+    \item[$\ast$]  on a A[]stop \: \stackrel{a}{\rightarrow}\:  A \: \: et \: \:  stop[]A \:  \stackrel{a}{\rightarrow}  \: A \:alors\: stop[]A = A[]stop=A
+\end{enumerate} 
+\item  A[](B[]C) = (A[]B)[]C $\to$ \:\:\:Associativité 
+\begin{enumerate}
+  on \: a \:  B[]C \:  \stackrel{a}{\rightarrow}  \: B \:        (1)\\
+  on \: a \:  A[]B \:  \stackrel{a}{\rightarrow}  \: B \:          (2)\\   
+    depuis\: (1)\: et \:(2) \:on \:trouve\: que:\: A[](B[]C) \: \stackrel{a}{\rightarrow}\: B \: \:     \:\:\:\:    (A)    \\
+    et (A[]B)[]C \: \stackrel{a}{\rightarrow}\: B \: \:    \:\:\:       (B) \\
+   depuis\: (A) \:et \:(B) \:on \:trouve \:que:\: A[](B[]C)=(A[]B)[]C
+\end{enumerate} 
+    \end{enumerate}
+\section*{exercice n02: la demonstration des trois lois pour l'operateur || }
+\begin{enumerate}
+\item  A\Vert B = B\Vert A $\to$ A \:\:\:Commutativité 
+\begin{enumerate}
+    \item[$\ast$]  on a A\Vert B \: \stackrel{a}{\rightarrow}\:  A \: \: et \: \:  B\Vert A \:  \stackrel{a}{\rightarrow}  \: A \:alors\: A\Vert B = B\Vert A
+\end{enumerate} 
+\item A\Vert stop = stop\Vert A = A $\to$\:\:\: A Zéro absorption
+\begin{enumerate}
+    \item[$\ast$]  on a A\Vert stop \: \stackrel{a}{\rightarrow}\:  stop \: \: et \: \:  stop\Vert A \:  \stackrel{a}{\rightarrow}  \: stop \:alors\: stop\Vert A = A||stop=stop
+\end{enumerate} 
+\item  A\Vert (B\Vert C) = (A\Vert B)\Vert C $\to$ \:\:\:Associativité 
+    \end{enumerate}
+\section*{exercice03}
+\subsection*{process one [a,b,c] a; (b; stop [] c; stop) endproc}
+\begin{forest}
+    [one,for tree={parent anchor=south, child anchor=north, fit=band}
+    [a[b[stop]][c[stop]]]]
+\end{forest}
+\subsection*{process two [a,b,c] a; b; stop [] a; c; stop Endproc}
+\begin{forest}
+    [two,for tree={parent anchor=south, child anchor=north, fit=band}
+    [a[b[stop]]]
+    [a[c[stop]]]]
+\end{forest}
+\subsection*{P1 := a; (b; d; stop [] c; stop)}
+
+\begin{forest}
+    [p1,for tree={parent anchor=south, child anchor=north, fit=band}
+    [a[b[d[stop]]]
+    [c[stop]]]
+    ]
+
+\end{forest}
+\subsection*{P2 := a;b;d;stop[]a;c;stop}
+
+\begin{forest}
+    [p2,for tree={parent anchor=south, child anchor=north, fit=band}
+    [a[b[d[stop]]]]
+    [a[c[stop]]]
+    ]
+
+\end{forest}
+
+\section*{exercice04}
+\subsection*{Les spécifications lotos pour les circuits logiques:  or, and et xor}
+
+%or
+\subsection*{ la spécification lotos pour le circuit logique OR}
+spec OR [a,b,c] :noexit \\
+type BIT is \\
+    sorts BIT\\
+    opns 0 (*! constructor *), \\
+        1 (*! constructor *) : \rightarrow BIT\\
+    or : BIT ,BIT\rightarrow BIT\\
+    eqns \\
+        ofsort BIT \\
+        or (0,0) = 0; \\
+        or (0,1) = 1; \\
+        or (0,1) = 1; \\
+        or (1,1) = 1; \\
+endtype\\ 
+behaviour\\ 
+    gate OR[a, b, c]\\
+where \\
+    process\: gate-OR[a, b] : noexit :=\\ 
+    a\:?aa:Bit;\: b\:?bb:Bit; \: c\:!or(aa,bb);\: stop \\
+    endproc \\
+endspec\\
+\begin{tikzpicture}[main/.style = {draw, circle}]
+ 
+    \node[main, xshift=3cm, yshift=3cm] (1) {1};
+    \node[main, xshift=1.5cm, yshift=0cm] (2) {2};
+    \node[main, xshift=4.5cm, yshift=0cm] (3){3};
+    \node[main,xshift=1.5cm, yshift=-3cm] (4) {4};
+
+
+    \node[main, xshift=4.5cm, yshift=-3cm] (5){5};
+    \node[main,xshift=3cm, yshift=-6cm] (6) {6};
+
+    \draw (1) --node[midway, above,sloped ] {0} (2);
+    \draw (1) --node[midway, above,sloped ] {1} (3);
+
+    \draw (2) -- node[midway, below , sloped ] {0}(4);
+    \draw (2) -- node[midway, above,sloped ] {1}(5);
+
+    \draw (3) --node[midway, above,sloped ] {0/1} (5);
+
+    \draw (4) -- node[midway, below ,sloped ] {0}(6);
+    \draw (5) -- node[midway, above ,sloped ] {1}(6);
+    
+    \end{tikzpicture}
+
+\subsection*{ la spécification lotos pour le circuit logique AND}
+spec AND [a,b,c] :noexit \\
+type BIT is \\
+    sorts BIT\\
+    opns 0 (*! constructor *), \\
+        1 (*! constructor *) : \rightarrow BIT\\
+    and : BIT ,BIT\rightarrow  BIT\\
+    eqns \\
+        ofsort BIT \\
+        and (0,0) = 0; \\
+        and (0,1) = 0; \\
+        and (0,1) = 0; \\
+        and (1,1) = 1; \\
+endtype\\ 
+behaviour\\ 
+    gate_and[a, b, c]\\
+where \\
+    process gate-AND[a, b] : noexit :=\\ 
+    a ?aa:Bit;and b?bb:Bit; and c!and(aa,bb);and stop \\
+    endproc \\
+endspec\\
+\begin{tikzpicture}[main/.style = {draw, circle}]
+ 
+    \node[main, xshift=3cm, yshift=3cm] (1) {1};
+    \node[main, xshift=1.5cm, yshift=0cm] (2) {2};
+    \node[main, xshift=4.5cm, yshift=0cm] (3){3};
+    \node[main,xshift=1.5cm, yshift=-3cm] (4) {4};
+
+
+    \node[main, xshift=4.5cm, yshift=-3cm] (5){5};
+    \node[main,xshift=3cm, yshift=-6cm] (6) {6};
+
+    \draw (1) --node[midway, above,sloped ] {0} (2);
+    \draw (1) --node[midway, above,sloped ] {1} (3);
+
+    \draw (2) -- node[midway, below , sloped ] {0/1}(4);
+    \draw (3) -- node[midway, above,sloped ] {0}(4);
+
+    \draw (3) --node[midway, above,sloped ] {1} (5);
+
+    \draw (4) -- node[midway, below ,sloped ] {0}(6);
+    \draw (5) -- node[midway, above ,sloped ] {1}(6);
+    
+    \end{tikzpicture}
+
+%xor
+\subsection*{la spécification lotos pour le circuit logique XOR}
+spec XOR [a,b,c] :noexit \\
+type BIT is \\
+    sorts BIT\\
+    opns 0 (*! constructor *), \\
+        1 (*! constructor *) : \rightarrow  BIT\\
+    xor : BIT ,BIT\rightarrow  BIT\\
+    eqns \\
+        ofsort BIT \\
+        xor (0,0) = 0; \\
+        xor (0,1) = 1; \\
+        xor (0,1) = 1; \\
+        xor (1,1) = 0; \\
+endtype\\ 
+behaviour\\ 
+    gate-XOR[a, b, c]\\
+where \\
+    process gate_XOr[a, b] : noexit :=\\ 
+    a ?aa:Bit;and b?bb:Bit; and c!xor(aa,bb); stop \\
+    endproc \\
+endspec\\
+
+\begin{tikzpicture}[main/.style = {draw, circle}]
+ 
+    \node[main, xshift=3cm, yshift=3cm] (1) {1};
+    \node[main, xshift=1.5cm, yshift=0cm] (2) {2};
+    \node[main, xshift=4.5cm, yshift=0cm] (3){3};
+    \node[main,xshift=1.5cm, yshift=-3cm] (4) {4};
+
+
+    \node[main, xshift=4.5cm, yshift=-3cm] (5){5};
+    \node[main,xshift=3cm, yshift=-6cm] (6) {6};
+
+    \draw (1) --node[midway, above,sloped ] {0} (2);
+    \draw (1) --node[midway, above,sloped ] {1} (3);
+
+    \draw (2) -- node[midway, below , sloped ] {0}(4);
+    \draw (2) --node[midway, above,sloped ] {1} (5);
+    \draw (3) -- node[midway, above,sloped ] {1}(4);   
+    \draw (3) --node[midway, above,sloped ] {0} (5);
+
+    \draw (4) -- node[midway, below ,sloped ] {0}(6);
+    \draw (5) -- node[midway, above ,sloped ] {1}(6);
+    
+    \end{tikzpicture}
+\end{document}
+
